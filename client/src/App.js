@@ -8,8 +8,18 @@ function App() {
       <Header />
       <div className="app">
         <div className="app__video">
-          <Video />
-          <Video />
+          <Video
+            url="https://i.imgur.com/9mCBcEJ.mp4"
+            userName="Harsh"
+            description="Hero"
+            likes={100}
+          />
+          <Video
+            url="https://i.imgur.com/9mCBcEJ.mp4"
+            userName="Harsh"
+            description="Hero"
+            likes={169}
+          />
         </div>
       </div>
     </div>

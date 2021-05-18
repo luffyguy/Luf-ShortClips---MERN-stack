@@ -1,15 +1,15 @@
-import React from 'react'
-import "./VideoFooter.css"
+import React from "react";
+import "./VideoFooter.css";
 
-const VideoFooter = () => {
-    return (
-        <div className = "videoFooter">
-            <div className="videoFooter__text">
-                <h3>Name of user</h3>
-                <p>Discription of video</p>
-            </div>
-        </div>
-    )
-}
+const VideoFooter = ({ userName, description }) => {
+  return (
+    <div className="videoFooter">
+      <div className="videoFooter__text">
+        <h3>{userName}</h3>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+};
 
-export default VideoFooter
+export default VideoFooter;

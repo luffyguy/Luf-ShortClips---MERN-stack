@@ -1,0 +1,32 @@
+.upVote {
+  position: absolute;
+  top: 10%;
+  left: 5px;
+  text-align: center;
+}
+
+.upVote__button {
+
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.up__button__true {
+  color: green !important;
+}
+.up__button {
+  color: white !important;
+}
+.down__button__true {
+  color: red !important;
+}
+.down__button {
+  color:white !important;
+}
+
+.upVote__count {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
