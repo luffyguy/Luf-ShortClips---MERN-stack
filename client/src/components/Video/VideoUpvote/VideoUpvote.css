@@ -7,19 +7,19 @@
 
 .upVote__button {
 
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
 }
 
 .up__button__true {
-  color: green !important;
+  color: rgb(61, 173, 61) !important;
 }
 .up__button {
   color: white !important;
 }
 .down__button__true {
-  color: red !important;
+  color: rgb(247, 47, 47) !important;
 }
 .down__button {
   color:white !important;

@@ -10,7 +10,7 @@ const VideoUpvote = ({ likes }) => {
   const [count, setCount] = useState(likes);
 
   const likedHandleClick = () => {
-    if (liked == true) {
+    if (liked === true) {
       setLiked(false);
       setDisliked(false);
       setCount(count - 1);
@@ -21,7 +21,7 @@ const VideoUpvote = ({ likes }) => {
     }
   };
   const dislikedHandleClick = () => {
-    if (disliked == true) {
+    if (disliked === true) {
       setDisliked(false);
       setLiked(false);
       setCount(count + 1);
